@@ -7,3 +7,5 @@
 # Nowdays it is mostly seen that people don’t get time to cook specially working womens and hostel living students and every day they cant efford to eat hotel’s food as it will also affect their Health.
 # So for them this app is going to be valuable
 # In this app we are providing three categories of food based on health like diet food for people who are on dieting as well as diabetic food for diabetic patients and many more…
+# team leader sonal singh
+# team members Damini Mahour,Priyansh Nema
