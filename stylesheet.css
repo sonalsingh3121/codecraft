@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+:root{
+	--navbar-height: 59px;
+}
+
+#navbar{
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0px;
+}
+
+#navbar::before{
+	content: "";
+	background-color: goldenrod;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 1800px;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+#logo{
+	margin: 10px 34px;
+}
+
+#logo img{
+	height: 59px;
+	margin: 3px 6px;
+}
+
+#navbar ul{
+	display: flex;
+	font-family: cursive;
+}
+
+#navbar ul li{
+	list-style: none;
+	font-size: 1.3rem;
+}
+
+#navbar ul li a{
+	color: white;
+	display: black;
+	padding: 3px 22px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+#navbar ul li a:hover{
+	color: darkred;
+	background-color: white;
+}
+
+/* home section */
+
+#home{
+	display: flex;
+	flex-direction: column;
+	padding: 3px 200px;
+	height: 550px;
+	justify-content: center;
+	align-items: center;
+}
+
+#home::before{
+	content: "";
+	position: absolute;
+	height: 642px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.89;
+}
+
+#home h1{
+	color: Black;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+}
+
+#home p{
+	margin-top: 3px;
+	color: tomato;
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'BBree Serif', serif;
+}
+
+#home img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+}
+
+/* about */
+
+#about{
+	display: flex;
+	flex-direction: column;
+	padding: 3px 200px;
+	height: 550px;
+	justify-content: center;
+	align-items: center;
+}
+
+#about h1{
+	color: Black;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+}
+
+#about p{
+	color: black;
+	margin-top: 8px;
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'BBree Serif', serif;
+}
+
+/* service */
+
+#services{
+	margin: 34px;
+	display: flex;
+}
+
+#services .box{
+	border: 2px solid brown;
+	padding: 34px;
+	margin: 2px 55px;
+	border-radius: 28px;
+	background: #f2f2f2;
+	margin-bottom: 20px;
+}
+
+#services .box img{
+	height: 160px;
+	margin: auto;
+	display: block;
+}
+
+#services-container h1{
+	color: Black;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+}
